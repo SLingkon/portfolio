@@ -1,13 +1,199 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  color: #252727;
+  text-align: center;
+  text-align: justify;
+  font-weight: 100;
+  margin: 0 10px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  font-family: cursive;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: #fcde67;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.img-container img {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.3);
+}
+
+
+.info-container {
+  padding-top: 5px;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+}
+
+.info-container h1 {
+  margin: 5px;
+  text-transform: capitalize;
+  font-family: 'Lobster', cursive;
+
+}
+
+.info-container h2 {
+  margin: 5px;
+  font-family: cursive;
+
+  text-transform: capitalize;
+}
+
+/* navBar design start */
+nav {
+  margin: 0 10%;
+}
+
+.nav-body {
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #004faa;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.icons {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-a {
+  width: 400px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  p {
+    color: #252727;
+    font-weight: 100;
+    margin: 0 10px;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fcde67;
+  }
+
+  .container {
+    margin: 0 10%;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .img-container img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.3);
+  }
+
+  .profile-container {
+    /* background-color: rebeccapurple; */
+  }
+
+  .info-container {
+    padding-top: 5px;
+    width: 300px;
+  }
+
+  .info-container h1 {
+    margin: 5px;
+    font-size: large;
+    text-transform: capitalize;
+  }
+
+  .info-container h2 {
+    margin: 5px;
+    font-size: large;
+    text-transform: capitalize;
+  }
+
+  /* navBar design start */
+  nav {
+    margin: 0 10%;
+  }
+
+  .nav-body {
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: #004faa;
+  }
+
+  .nav-items {
+    display: block;
+  }
+
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+
+  .navitems-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+
 }
