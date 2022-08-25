@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   color: black;
   display: flex;
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
@@ -69,8 +69,8 @@ body {
 
 .info-container h2 {
   margin: 5px;
-  font-family: cursive;
-
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   text-transform: capitalize;
 }
 
